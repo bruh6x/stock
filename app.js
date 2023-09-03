@@ -44,7 +44,7 @@ app.get('/products', function(request, response) {
     const query = 'SELECT * FROM products';
     connection.query(query, (err, results) => {
         if (err) {
-            alert(req, res, "Ürün verileri çekilirken hata oluştu.", "/dashboard", "danger", true);
+            alert(request, response, "Ürün verileri çekilirken hata oluştu.", "/dashboard", "danger", true);
         } else {
             if (results && results.length > 0) {
                 const query = 'SELECT * FROM stocks';
