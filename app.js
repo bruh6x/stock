@@ -9,7 +9,7 @@ const fs = require('fs');
 require('./utils');
 
 const connection = mysql.createConnection({
-    host     : 'http://db4free.net/',
+    host     : 'db4free.net',
     user     : 'kartaltepestock',
     password : 'kartaltepestock123',
     database : 'kartaltepestock',
