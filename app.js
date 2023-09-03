@@ -9,10 +9,10 @@ const fs = require('fs');
 require('./utils');
 
 const connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'root',
-    password : 'root',
-    database : 'stock'
+    host     : 'http://db4free.net/',
+    user     : 'kartaltepestock',
+    password : 'kartaltepestock123',
+    database : 'kartaltepestock',
 });
 
 const app = express();
